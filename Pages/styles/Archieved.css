@@ -1,0 +1,43 @@
+.archived {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.note {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note p {
+  margin: 0 0 10px;
+}
+
+.note-tags {
+  margin-top: 10px;
+}
+
+.note .tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+@import './common.css';
+
+.archived {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
