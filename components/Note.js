@@ -1,4 +1,3 @@
-
 import '../styles/Note.css'
 
 const Note = ({note, onArchive, onDelete}) => (
